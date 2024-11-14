@@ -1,6 +1,8 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
+###Autores: Tomas Suarez y Camilo Murcia
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
@@ -22,9 +24,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-function-configii.png)
 
+Realizado:
+
+![image](https://github.com/user-attachments/assets/2d57fa46-03e1-4dda-9e6c-106d9530170f)
+
 2. Instale la extensión de **Azure Functions** para Visual Studio Code.
 
 ![](images/part3/part3-install-extension.png)
+
+Realizado:
+
+![image](https://github.com/user-attachments/assets/16e060aa-b1ad-4693-8208-71ccdfb52637)
+
 
 3. Despliegue la Function de Fibonacci a Azure usando Visual Studio Code. La primera vez que lo haga se le va a pedir autenticarse, siga las instrucciones.
 
