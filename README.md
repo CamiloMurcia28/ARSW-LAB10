@@ -81,7 +81,7 @@ Prueba con 1000000:
 
 ![image](https://github.com/user-attachments/assets/6875b21a-b03d-4b35-96ef-875eb6f466c6)
 
-
+Despues de esperar 5 minutos sube un poco el tiempo de respuesta, algo que tambien se noto, es que al intentar enviar peticiones con valores muy grandes, ocurren errores de recursion, por lo que no se recibe una respuesta por parte de la funcion.
 
 **Preguntas**
 
