@@ -1,7 +1,7 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
-###Autores: Tomas Suarez y Camilo Murcia
+### Autores: Tomas Suarez y Camilo Murcia
 
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
@@ -43,13 +43,45 @@ Realizado:
 
 ![](images/part3/part3-deploy-function-2.png)
 
+Realizado: 
+
+![image](https://github.com/user-attachments/assets/6393fcc9-8c76-4550-b9d8-43f6169a434e)
+
 4. Dirijase al portal de Azure y pruebe la function.
 
 ![](images/part3/part3-test-function.png)
 
+Realizado: ![image](https://github.com/user-attachments/assets/5e06163d-3f0f-41f3-beb1-13335b55fef6)
+
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
+Se crea el archivo de Fibonacci.postman_collection.json para poder escribir la configuracion necesaria.
+![image](https://github.com/user-attachments/assets/7001fbc3-f8a5-4b9c-9558-e006715767ba)
+
+Se utiliza el siguiente comando para poder enviar las peticiones concurrentes:
+
+   ```bash
+    cd postman
+    newman run Fibonacci.postman_collection.json -n 10
+   ```
+
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+![image](https://github.com/user-attachments/assets/21e77349-1347-4d41-9eec-a04cf374d56a)
+
+Prueba para 300000:
+
+![image](https://github.com/user-attachments/assets/7b316817-fb66-46d8-91c7-361c108a2eaf)
+
+Prueba para 400000:
+
+![image](https://github.com/user-attachments/assets/49229591-b005-4f0f-9dfb-b68bbcf4f418)
+
+Prueba con 1000000:
+
+![image](https://github.com/user-attachments/assets/6875b21a-b03d-4b35-96ef-875eb6f466c6)
+
+
 
 **Preguntas**
 
